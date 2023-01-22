@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "jquery": "^3.6.2",
+    "typed.js": "^2.0.12",
+    "waypoints": "^4.0.1"
+  }
+}
