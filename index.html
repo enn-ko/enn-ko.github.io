@@ -21,7 +21,7 @@
     <div class="container-fluid">
         <div class="row text-center">
             <!-- start aside -->
-            <div class="col-12 col-lg-3 aside d-none d-lg-block">
+            <div class="col-11 col-lg-3 aside d-none d-lg-block">
                 <div class="aside-img">
                     <img src="img/img.jpg" class="" alt="">
                 </div>
@@ -34,45 +34,47 @@
                         <a href="https://www.linkedin.com/in/enn-ko-300843248/"><i class="fa fa-linkedin"></i></a>
                     </div>
                 </div>
+               
                 <ul class="aside-nav">
-                    <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
-                    <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
-                    <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
-                    <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
+                    <li><a href="#home" class="nav "><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="#about" class="nav"><i class="fa fa-user"></i> About</a></li>
+                    <li><a href="#portfolio" class="nav"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+                    <li><a href="#contact" class="nav"><i class="fa fa-comments"></i> Contact</a></li>
                 </ul>
-                <footer class="text-light mt-2">
+                <footer class=" footer mt-2">
                     <small class="d-block">©2022 Enn Kon</small>
                     <small>All right reserved</small>
                 </footer>
             </div>
             <!-- end aside  -->
-            
+            <div class="nav-toggler d-lg-none d-block shadow">
+                <button class="btn btn-lg btn-outline-primary"><i class="menu-icon fa fa-bars" style="font-size: 30px;"></i></button>
+            </div>
             <!-- start right  -->
             <div class="col-12 col-lg-9 right" style="overflow: hidden;">
                 <div class="contaner-fluid">
-                    <div class="row px-3">
+                    <div class="row ">
                         <div class="container">
                             <div class="row">
                                 <!-- start home -->
                                 <section class="home " id="home">
-                                    <div class="nav-toggler d-lg-none d-block">
-                                        <button class="btn btn-outline-primary"><i class="fa fa-bars" style="font-size: 30px;"></i></button>
-                                    </div>
-                                    <div class="row align-items-center justify-content-center">
-                                        <div class="col-12 col-md-6 home-text">
+                                  
+                                    <div id="home-content" class="row align-items-center justify-content-center">
+                                        <div class="col-12 col-md-6 mt-5 home-text">
                                             <h4>Welcome, I am <span>Enn Kon</span></h4>
                                             <h4>I am, <span class="typing"></span></h4>
-                                            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio vitae
-                                                debitis molestiae, mollitia alias, maiores sed veniam accusamus quo facere a
-                                                quos numquam eligendi dignissimos enim animi. Amet, sed. Ex. </p>
+                                            <p class="">
+                                                I'm learning web development during last year. Now,I keep leaning because I want to become Software Engineer in the future.  
+                                            </p>
+                                            <!-- <button class="btn btn-outline-primary px-4 rounded-pill mt-4"><a href="./Bitcoin-book-by-Ei-Maung.pdf" >My resume</a></button> -->
                                         </div>
                                         <div class="col-12 col-md-6 home-img">
-                                            <img src="img/img.jpg" alt="">
+                                            <img src="img/img.jpg" alt="profile Enn Ko" >
                                         </div>
                                         <a class="scroll-to-next shadow animate__animated animate-fadeIn ani-delay-3"
                                             href="#about">
                                             <img src="img/mouse.svg" class="animate__animated animate__bounce "
-                                                style="width: 15px;animation-iteration-count: infinite" alt="">
+                                                style="width: 15px;animation-iteration-count: infinite" alt="mouse svg">
                                         </a>
                                     </div>
                                 </section>
@@ -81,119 +83,100 @@
                                 <section class="about" id="about">
                                     <div class="about-text ">
                                         <h4  style="color: var(--skin-color);">My skills</h4>
-                                        <div class="about-icons row mt-5">
-                                           <div class="col-6 col-md-4 mt-5 d-flex align-items-center">
-                                            <i class="fa fa-html5"></i> 
-                                            <h6 class="mb-0 fw-bolder">HTML 5</h6>
-                                           </div>
-                                           <div class="col-6 col-md-4 mt-5 d-flex align-items-center">
-                                            <i class="fa fa-css3"></i> 
-                                            <h6 class="mb-0 fw-bolder">CSS</h6>
-                                           </div>
-                                           <div class="col-6 col-md-4 mt-5 d-flex align-items-center">
-                                            <i class="fa fa-bold"></i> 
-                                            <h6 class="mb-0 fw-bolder">Bootstrap</h6>
-                                           </div>
-                                           <div class="col-6 col-md-4 mt-5 d-flex align-items-center">
-                                            <img src="img/square-js.svg" alt=""> 
-                                            <h6 class="mb-0 fw-bolder">JavaScript</h6>
-                                           </div>
-                                           <div class="col-6 col-md-4 mt-5 d-flex align-items-center">
-                                            <img src="img/vuejs.svg" alt=""> 
-                                            <h6 class="mb-0 fw-bolder">Vue</h6>
-                                           </div>
-                                           <div class="col-6 col-md-4 mt-5 d-flex align-items-center">
-                                            <img src="img/react.svg" alt=""> 
-                                            <h6 class="mb-0 fw-bolder">React</h6>
-                                           </div>
-                                           <div class="col-6 col-md-4 mt-5 d-flex align-items-center">
-                                            <img src="img/angular.svg" alt=""> 
-                                            <h6 class="mb-0 fw-bolder">Angular</h6>
-                                           </div>
-                                           <div class="col-6 col-md-4 mt-5 d-flex align-items-center">
-                                            <img src="img/python.svg" alt=""> 
-                                            <h6 class="mb-0 fw-bolder">Python</h6>
-                                           </div>
-                                           <div class="col-6 col-md-4 mt-5 d-flex align-items-center">
-                                            <img src="img/icons8-django.svg" alt=""> 
-                                            <h6 class="mb-0 fw-bolder">Django</h6>
-                                           </div>
-                                           <div class="col-6 col-md-4 mt-5 d-flex align-items-center">
-                                            <img src="img/sass.svg" alt=""> 
-                                            <h6 class="mb-0 fw-bolder">Sass</h6>
-                                           </div>
-                                           <div class="col-6 col-md-4 mt-5 d-flex align-items-center">
-                                            <img src="img/database-solid.svg" alt=""> 
-                                            <h6 class="mb-0 fw-bolder">SQLite</h6>
-                                           </div>
-                                        </div>
-                                        <!-- <div class="row bg-white about-content mt-4 shadow">
-                                            <div class="col-4 text-center border-end">
-                                                <i class="fa fa-code"></i>
-                                                <h4 class="mt-2">Basic Code</h4>
-                                                <p>I knew the HTML5 and CSS very well</p>
+                                        <p >I'm current learning Python, SQL and Django</p>
+                                        <div class="about-icons row mt-4">
+                                           <div class="mb-3">
+                                            <h4 class="header mb-3">HTML</h4>
+                                            <div class="progress mt-4 w-75">
+                                                <div class="progress-bar rounded-pill" role="progressbar" aria-label="Example with label" style="width: 95%; background: var(--skin-color);" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
                                             </div>
-                                            <div class="col-4 text-center border-end">
-                                                <i class="fa fa-code"></i>
-                                                <h4 class="mt-2">JavaScript</h4>
-                                                <p>Related with JavaScript,I knew Vue.js, React.js, Angular, Jquery, Ajex, Sass and Bootstrap</p>
+                                           </div>
+                                           <div class="mb-3">
+                                            <h4 class="header mb-3">CSS</h4>
+                                            <div class="progress mt-4 w-75">
+                                                <div class="progress-bar rounded-pill" role="progressbar" aria-label="Example with label" style="width: 90%; background: var(--skin-color);" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
                                             </div>
-                                            <div class="col-4 text-center">
-                                                <i class="fa fa-code"></i>
-                                                <h4 class="mt-2">Python</h4>
-                                                <p>Python framework Django and database SQL</p>
+                                           </div>
+                                           <div class="mb-3">
+                                            <h4 class="header mb-3">JS</h4>
+                                            <div class="progress mt-4 w-75">
+                                                <div class="progress-bar rounded-pill" role="progressbar" aria-label="Example with label" style="width: 85%; background: var(--skin-color);" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
                                             </div>
-                                        </div> -->
+                                           </div>
+                                           <div class="mb-3">
+                                            <h4 class="header mb-3">Vue</h4>
+                                            <div class="progress mt-4 w-75">
+                                                <div class="progress-bar rounded-pill" role="progressbar" aria-label="Example with label" style="width: 70%; background: var(--skin-color);" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                                            </div>
+                                           </div>
+                                           <div class="mb-3">
+                                            <h4 class="header mb-3">React</h4>
+                                            <div class="progress mt-4 w-75">
+                                                <div class="progress-bar rounded-pill" role="progressbar" aria-label="Example with label" style="width: 65%; background: var(--skin-color);" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+                                            </div>
+                                           </div>
                                     </div>
                                 </section>
                                 <!-- end about  -->
                                 <!-- start portfolio  -->
                                 <section class="portfolio" id="portfolio">
                                    <div class="portfolio-head">
-                                    <h1 style="color: var(--skin-color);">My Portfolio</h1>
+                                    <h1>My Portfolio</h1>
                                     <p>Here My Some Projects</p>
                                    </div>
-                                   <div class="porfolio-projects row" >
+                                   <div class="porfolio-projects row " >
                                         <div class="col-12 col-md-6 col-lg-4 mb-0" id="projects">
-                                            <img src="img/burkettandco.png" class="project-img " alt="">
-                                            <div class="project-thumb text-center d-none">
-                                                <p>This is main</p>
-                                                <button class="btn btn-outline-primary btn-sm rounded-pill "><a href="#">visit website<i class="fa fa-arrow-circle-o-right ms-3"></i></a></button>
+                                           <div class="project ">
+                                            <img src="img/four-card.jpg" class="project-img" alt="four-card code to frontendmentor.io">
+                                            <div class="project-thumb text-center">
+                                                <p class="text-white w-75">Coding width HTML and CSS described responsive card solution for Frontend Mentor</p>
+                                                <button class="btn btn-outline-primary btn-sm rounded-pill "><a target="_blank" href="https://four-card-pj.netlify.app">visit website<i class="fa fa-arrow-circle-o-right ms-3"></i></a></button>
+                                            </div>
+                                           </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4 mb-0" id="projects">
+                                            <div class="project">
+                                                <img src="img/base-apparel.jpg" class="project-img " alt="base-apparel code to frontendmentor.io">
+                                                <div class="project-thumb text-center ">
+                                                    <p class="text-white w-75">Coding with HTML CSS and Js described Base Apparel and email solution for Frontend Mentor</p>
+                                                    <button class="btn btn-outline-primary btn-sm rounded-pill "><a target="_blank" href="https://base-apparel-pj.netlify.app">visit website<i class="fa fa-arrow-circle-o-right ms-3"></i></a></button>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="col-12 col-md-6 col-lg-4 mb-0" id="projects">
-                                            <img src="img/burkettandco.png" class="project-img " alt="">
-                                            <div class="project-thumb text-center d-none">
-                                                <p>This is main</p>
-                                                <button class="btn btn-outline-primary btn-sm rounded-pill "><a href="#">visit website<i class="fa fa-arrow-circle-o-right ms-3"></i></a></button>
+                                            <div class="project">
+                                                <img src="img/calculator.jpg" class="project-img " alt="calculator code to frontendmentor.io">
+                                                <div class="project-thumb text-center ">
+                                                    <p class="text-white w-75">Coding with HTML CSS and JS described calculated and switch-them solution for Frontend Mentor</p>
+                                                    <button class="btn btn-outline-primary btn-sm rounded-pill "><a target="_blank" href="https://ennko-calculator.netlify.app">visit website<i class="fa fa-arrow-circle-o-right ms-3"></i></a></button>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="col-12 col-md-6 col-lg-4 mb-0" id="projects">
-                                            <img src="img/burkettandco.png" class="project-img " alt="">
-                                            <div class="project-thumb text-center d-none">
-                                                <p>This is main</p>
-                                                <button class="btn btn-outline-primary btn-sm rounded-pill "><a href="#">visit website<i class="fa fa-arrow-circle-o-right ms-3"></i></a></button>
+                                            <div class="project">
+                                                <img src="img/snap.jpg" class="project-img " alt="snap code to frontendmentor.io">
+                                                <div class="project-thumb text-center ">
+                                                    <p class="text-white w-75">Coding with HTML CSS and JS described todo-list, calender and remainder solution for Frontend Mentor</p>
+                                                    <button class="btn btn-outline-primary btn-sm rounded-pill"><a target="_blank" href="https://snap-pj.netlify.app">visit website<i class="fa fa-arrow-circle-o-right ms-3"></i></a></button>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="col-12 col-md-6 col-lg-4 mb-0" id="projects">
-                                            <img src="img/burkettandco.png" class="project-img " alt="">
-                                            <div class="project-thumb text-center d-none">
-                                                <p>This is main</p>
-                                                <button class="btn btn-outline-primary btn-sm rounded-pill "><a href="#">visit website<i class="fa fa-arrow-circle-o-right ms-3"></i></a></button>
+                                            <div class="project">
+                                                <img src="img/article-preview.jpg" class="project-img " alt="article-preview code to frontendmentor.io">
+                                                <div class="project-thumb text-center ">
+                                                    <p class="text-white w-75">Coding width HTML CSS and JS described share link solution for Frontend Mentor</p>
+                                                    <button class="btn btn-outline-primary btn-sm rounded-pill "><a target="_blank" href="https://article-preview-pj.netlify.app/">visit website<i class="fa fa-arrow-circle-o-right ms-3"></i></a></button>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="col-12 col-md-6 col-lg-4 mb-0" id="projects">
-                                            <img src="img/burkettandco.png" class="project-img " alt="">
-                                            <div class="project-thumb text-center d-none">
-                                                <p>This is main</p>
-                                                <button class="btn btn-outline-primary btn-sm rounded-pill "><a href="#">visit website<i class="fa fa-arrow-circle-o-right ms-3"></i></a></button>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-md-6 col-lg-4 mb-0" id="projects">
-                                            <img src="img/burkettandco.png" class="project-img " alt="">
-                                            <div class="project-thumb text-center d-none">
-                                                <p>This is main</p>
-                                                <button class="btn btn-outline-primary btn-sm rounded-pill "><a href="#">visit website<i class="fa fa-arrow-circle-o-right ms-3"></i></a></button>
+                                            <div class="project">
+                                                <img src="img/clipboard.jpg" class="project-img " alt="clipboard code to frontendmentor.io">
+                                                <div class="project-thumb text-center ">
+                                                    <p class="text-white w-75">Coding width HTML and CSS described clipboard web and responsive website solution for Frontend Mentor</p>
+                                                    <button class="btn btn-outline-primary btn-sm rounded-pill "><a href="https://clipboard-pj.netlify.app/">visit website<i class="fa fa-arrow-circle-o-right ms-3"></i></a></button>
+                                                </div>
                                             </div>
                                         </div>
                                    </div>
@@ -277,10 +260,11 @@
 
     <!------- style swichter end------->
 
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
     <script src="js/style-switcher.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.js"></script>
-    <script src="js/app.js"></script>
+    <script src="./node_modules/waypoints/lib/jquery.waypoints.js"></script>
+    <script src="./node_modules/typed.js/lib/typed.js"></script>
+    <script src="js/app.js" ></script>
  
 </body>
 

@@ -28,6 +28,8 @@ dayNight.addEventListener("click",()=>{
     dayNight.querySelector("i").classList.toggle("fa-moon-o");
     dayNight.querySelector("i").classList.toggle("fa-sun-o");
     document.body.classList.toggle("light")
+    document.querySelector(".nav-toggler").classList.toggle("light");
+    document.querySelector(".aside").classList.toggle("light")
 })
 window.addEventListener("load",()=>{
     if(document.body.classList.contains("light")){
